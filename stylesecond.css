@@ -1,0 +1,662 @@
+.container.header {
+  width: 80%;
+  max-width: none !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  height: 75px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+#dropdownMenuButton {
+  background-color: white;
+  color: #5f4dee;
+  border-radius: 10px;
+}
+header {
+  background-color: #5f4dee;
+  position: sticky;
+  top: 0;
+  z-index: 154;
+}
+.header.dropdown-menu .navbardropdown {
+  padding-left: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.header.dropdown-menu .navbardropdown li nav {
+  color: #5f4dee;
+}
+.dropdown.header {
+  display: none;
+}
+.italicandbold {
+  color: white;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 35px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.page1 {
+  background-color: #5f4dee;
+  display: flex;
+  flex-direction: column;
+}
+.navbardropdown {
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.navbar {
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.navbar li nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.navbardropdown li nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.navbarbutton {
+  background-color: #5f4dee;
+  border: solid white;
+  border-radius: 20px;
+  width: 130px;
+  height: 40px;
+  transition: ease-in-out 0.2s;
+}
+.navbarbutton:hover {
+  background-color: white;
+  color: #5f4dee !important;
+  transition: ease-in-out 0.2s;
+}
+a {
+  font-family: "Poppins", sans-serif;
+}
+.navbarbutton {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 800;
+}
+.container.firstpage.first {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 350px;
+}
+.textandbutton {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bold40px.firstpage {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+}
+.text.firstpage {
+  color: white;
+}
+.textandbuttonbutton {
+  color: #5f4dee !important;
+  font-size: 15px;
+  font-weight: 800;
+}
+.textandbuttonbutton {
+  background-color: white;
+  border: solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 55px;
+  transition: ease-in-out 0.2s;
+}
+.firstpageimg {
+  max-height: 500px;
+}
+.customer-logosul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.customer-logosul li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.textandbuttonbutton:hover {
+  background-color: unset;
+  color: white !important;
+  transition: ease-in-out 0.2s;
+}
+.container.secondpage.first {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headertext.secondpage {
+  color: #5f4dee;
+  font-weight: 700;
+}
+.headerbold.secondpage {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  width: 700px;
+}
+.container.descriptions {
+  margin-bottom: 150px;
+}
+.row.descriptions {
+  width: 100%;
+}
+.card-img-top.descriptions {
+  max-height: 300px;
+  max-width: 300px;
+}
+.card.descriptions {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.card.descriptions .card-body * {
+  text-align: center;
+}
+.card.descriptions .card-body .card-bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+.page3 {
+  background-color: #f3f7fd;
+  padding: 150px 0;
+}
+.thirdpage.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lorem.features {
+  width: 800px;
+  text-align: center;
+}
+.features.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 75px;
+}
+.featuresoptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.option {
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  position: relative;
+  transition: linear 0.2s;
+}
+.option:hover {
+  color: #5f4dee;
+  transition: linear 0.2s;
+}
+.option:hover i {
+  color: #5f4dee;
+  transition: linear 0.2s;
+}
+.option:hover::before {
+  background-color: #5f4dee;
+  transition: linear 0.2s;
+}
+.option::before {
+  content: "";
+  position: absolute;
+
+  background-color: grey;
+  height: 3px;
+  width: 180px;
+  bottom: -5px;
+  left: -30px;
+  transition: linear 0.2s;
+}
+.option i {
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  margin-right: 5px;
+  transition: linear 0.2s;
+}
+.features.informations {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: 100px;
+  align-items: center;
+}
+.features.img1 {
+  max-height: 400px;
+}
+.headerfeatures.info1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.features.info.info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 500px;
+}
+.features.info.info1 ul li {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-bottom: 10px;
+}
+.features.info.info1 ul {
+  margin-left: -15px;
+  list-style: none; /* Remove default bullets */
+}
+
+.features.info.info1 ul li::before {
+  position: absolute;
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5f4dee; /* Change the color */
+  font-size: 30px;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  top: -11px;
+  left: -20px;
+}
+.purplebutton {
+  background-color: #5f4dee;
+  color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 160px;
+  height: 45px;
+  transition: ease-in-out 0.2s;
+}
+.purplebutton:hover {
+  background-color: white;
+  color: #5f4dee !important;
+  transition: ease-in-out 0.2s;
+}
+.page4 {
+  padding: 100px 0;
+}
+.container.fourthpage.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container.fifthpage.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container.fifthpage.first img {
+  max-height: 600px;
+  border-radius: 10px;
+}
+.container.fifthpage.first p {
+  text-align: center;
+  width: 800px;
+  margin-top: 50px;
+}
+.page5 {
+  background-color: #f3f7fd;
+  padding: 100px 0;
+}
+.container.sixthpage.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.page6 {
+  margin: 100px 0;
+}
+small {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.container.card-container {
+  margin: 50px 0;
+  margin-bottom: 150px;
+}
+.container.roysmith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.container.sixthpage.second form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: baseline;
+}
+.container.sixthpage.second form .form-group .form-control {
+  width: 600px;
+  height: 50px;
+}
+.container.sixthpage.second form button {
+  width: 600px;
+}
+.text.roysmith {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.textroysmith {
+  font-style: italic;
+}
+.developer {
+  font-weight: 600;
+}
+.card {
+  margin-bottom: 30px;
+}
+.fas.fa-chevron-left,
+.fas.fa-chevron-right {
+  font-size: 50px;
+  cursor: pointer;
+}
+.container.roysmith img {
+  border-radius: 50%;
+}
+.card-body.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+.dollar.pricing {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.pricetag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.capabilities {
+  margin-top: 15px;
+}
+.card-body.pricing hr {
+  width: 250px;
+}
+.price.pricing {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+.fas.fa-check {
+  color: #5f4dee;
+  margin-right: 8px;
+}
+.fas.fa-times {
+  margin-right: 8px;
+}
+.info.roysmith {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container.sixthpage.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f7fd;
+  width: 50%;
+  max-width: unset !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.icons.container.seventhpage {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.icons.container.seventhpage i {
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #5f4dee;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  transition: ease-in-out 0.2s;
+}
+.icons.container.seventhpage i:hover {
+  background-color: white;
+  color: #5f4dee;
+  transition: ease-in-out 0.2s;
+}
+.container.sixthpage.second form .form-check .form-check-label a {
+  color: black;
+  font-weight: 400;
+}
+footer {
+  background-color: #5f4dee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.container.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.box.about {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 400px;
+}
+
+footer small {
+  color: white;
+}
+.container.footer .box.about ul li .link {
+  color: white;
+}
+.container.footer .box.about ul li {
+  color: white;
+  position: relative;
+  list-style: none;
+}
+.container.footer .box.about ul li::before {
+  position: absolute;
+  content: " "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  background-color: white; /* Change the color */
+
+  /* If you want it to be bold */
+  width: 10px;
+  height: 10px;
+  left: -19px;
+  top: 9px;
+}
+footer hr {
+  width: 70%;
+  color: white;
+  margin: 30px 0;
+}
+.box.about p {
+  color: white;
+}
+.boldabout {
+  font-weight: 700;
+  font-size: 25px;
+}
+.box.about span {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.box.about span i {
+  margin-right: 10px;
+}
+.box.about .linkmail {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+.mailandsite {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+@media only screen and (max-width: 1200px) {
+  .container.firstpage.first {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .features.informations {
+    flex-direction: column-reverse;
+  }
+  .textandbutton * {
+    align-items: center;
+    text-align: center;
+  }
+  .textandbutton {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .dropdown.header {
+    display: block;
+  }
+
+  .container.header .navbar {
+    display: none;
+  }
+  .page5 img {
+    max-width: 600px;
+  }
+  .page5 p {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bold40px.firstpage {
+    font-size: 30px;
+  }
+  .headerbold.secondpage {
+    font-size: 25px;
+    width: 320px;
+  }
+  .lorem.features {
+    max-width: 300px;
+  }
+  .firstpageimg {
+    max-height: 250px;
+  }
+  .textandbutton {
+    width: 300px;
+    align-items: center;
+  }
+  .textandbuttonbutton {
+    width: 85px;
+    height: 27px;
+  }
+  .container.sixthpage.second {
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .container.sixthpage.second .headerbold.secondpage {
+    font-size: 25px;
+    width: 300px !important;
+  }
+  .container.sixthpage.second form .form-group .form-control {
+    width: 300px !important;
+  }
+  .container.sixthpage.second form .form-check .form-check-label {
+    width: 300px;
+  }
+  .container.sixthpage.second form button {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .c .customer-logosul {
+    gap: 20px;
+  }
+  .features.informations img {
+    max-height: 225px;
+  }
+  .features.info.info1 {
+    max-width: 300px;
+  }
+  .info.roysmith {
+    flex-direction: column-reverse;
+  }
+  .info.roysmith .text.roysmith {
+    max-width: 300px;
+  }
+  .page7 .container.sixthpage.second {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .page5 img {
+    max-width: 320px;
+  }
+  .page5 p {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .box.about {
+    width: 320px;
+  }
+}
